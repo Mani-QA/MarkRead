@@ -1,0 +1,28 @@
+{
+  "name": "markread",
+  "version": "1.0.0",
+  "description": "A portable Markdown file viewer built with Neutralinojs and React.",
+  "private": true,
+  "scripts": {
+    "dev:react": "vite build --watch",
+    "build:react": "vite build",
+    "dev": "vite build && neu run",
+    "build": "vite build && neu build --embed-resources",
+    "postbuild": "node scripts/sign.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/react": "^19.2.14",
+    "@types/react-dom": "^19.2.3",
+    "@vitejs/plugin-react": "^5.1.4",
+    "vite": "^7.3.1"
+  },
+  "dependencies": {
+    "react": "^19.2.4",
+    "react-dom": "^19.2.4",
+    "react-markdown": "^10.1.0",
+    "remark-gfm": "^4.0.1"
+  }
+}

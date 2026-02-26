@@ -1,0 +1,20 @@
+# Dependencies
+node_modules/
+
+# Neutralinojs binaries and builds
+/bin
+/dist
+
+# Neutralinojs client (minified)
+neutralino.js
+
+# Neutralinojs related files
+.storage
+*.log
+
+# Vite build output (generated into resources/)
+/resources/js/app.js
+/resources/css/
+
+# IDE
+.lite_workspace.lua
